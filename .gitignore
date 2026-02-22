@@ -1,0 +1,39 @@
+# --- macOS / OS X ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# --- Ruby / Gems ---
+*.gem
+.bundle/
+vendor/bundle/
+lib/bundler/man/
+Gemfile.lock
+.ruby-version
+.ruby-gemset
+.rvmrc
+
+# --- RDoc / Documentation ---
+/doc/
+.rdoc_options
+
+# --- Testing / Coverage ---
+/coverage/
+.rspec
+
+# --- Project Specifics (Power Query Tools) ---
+# Ignore the temporary unpacked DataMashup directories
+/unpacked_mashup/
+/extracted_queries/
+/Individual_Queries/
+
+# Ignore Excel temporary/lock files (start with ~$)
+~$*.xlsx
+
+# Ignore your output/test Excel files if you don't want them in git
+# updated_*.xlsx
+# result_*.xlsx
+
+# --- Debugging ---
+.pry_history
